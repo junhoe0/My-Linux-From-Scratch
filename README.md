@@ -21,9 +21,19 @@ To verify that the system is bootable and completely operational, I have include
 1. Kernel Configuration
 2. Systemd Boot Logs
 3. System Control Status
-4. Configuration Directory
 
----  
+---
+
+## 📦 Repository Structure
+```
+├── README.md  
+├── kernel.config  
+└── logs/  
+    ├── boot.log  
+    └── systemctl-status.txt
+```
+
+---
 
 ## 🎓 What I've Learned
 * Useful yet simple CLI tools (e.g cp, mv, find, mkdir, mount)
