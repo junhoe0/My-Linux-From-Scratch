@@ -1,0 +1,48 @@
+* localhost.localdomain
+    State: running
+    Units: 281 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Sat 2026-07-25 13:49:41 +08; 18min ago
+  systemd: 259.1
+  Tainted: unmerged-bin
+   CGroup: /
+           |-init.scope
+           | `-1 /sbin/init
+           `-system.slice
+             |-NetworkManager.service
+             | `-266 /usr/sbin/NetworkManager --no-daemon
+             |-dbus.service
+             | |-265 /usr/bin/dbus-daemon --system --nofork --nopidfile
+             | `-304 /usr/sbin/wpa_supplicant -u
+             |-system-getty.slice
+             | `-getty@tty1.service
+             |   |-267 -bash
+             |   `-409 systemctl status
+             |-systemd-journald.service
+             | `-137 /usr/lib/systemd/systemd-journald
+             |-systemd-logind.service
+             | `-269 /usr/lib/systemd/systemd-logind
+             |-systemd-networkd.service
+             | `-192 /usr/lib/systemd/systemd-networkd
+             |-systemd-nsresourced.service
+             | |-173 /usr/lib/systemd/systemd-nsresourced
+             | |-378 "systemd-nsresourcework: waiting..."
+             | |-386 "systemd-nsresourcework: waiting..."
+             | |-388 "systemd-nsresourcework: waiting..."
+             | |-390 "systemd-nsresourcework: waiting..."
+             | `-391 "systemd-nsresourcework: waiting..."
+             |-systemd-oomd.service
+             | `-140 /usr/lib/systemd/systemd-oomd
+             |-systemd-resolved.service
+             | `-151 /usr/lib/systemd/systemd-resolved
+             |-systemd-timesyncd.service
+             | `-179 /usr/lib/systemd/systemd-timesyncd
+             |-systemd-udevd.service
+             | `-udev
+             |   `-180 /usr/lib/systemd/systemd-udevd
+             `-systemd-userdbd.service
+               |-154 /usr/lib/systemd/systemd-userdbd
+               |-385 "systemd-userwork: waiting..."
+               |-387 "systemd-userwork: waiting..."
+               `-389 "systemd-userwork: waiting..."
