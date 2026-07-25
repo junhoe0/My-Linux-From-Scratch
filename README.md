@@ -26,10 +26,11 @@ To verify that the system is bootable and completely operational, I have include
 ---  
 
 ## 🎓 What I've Learned
-1. Useful yet simple CLI tools (e.g cp, mv, find, mkdir, mount)
-2. How to manually extract, compile and install packages directly from source code using 'autotools' (./configure, make, make install)
-3. How to install packages from the internet in CLI
-4. Cross-compiling temporary tools to build the system
+* Useful yet simple CLI tools (e.g cp, mv, find, mkdir, mount)
+* How to manually extract, compile and install packages directly from source code using 'autotools' (./configure, make, make install)
+* Configuring the Linux Kernel to meet package requirements
+* Creating a temporary cross-compiler toolchain isolated from the host environment
+* Resolving missing dependencies without a package manager
 
 ---  
 
