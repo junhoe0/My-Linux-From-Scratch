@@ -4,12 +4,13 @@
 ---  
 
 ## 🚀 Project Overview
-1. Used the Linux From Scratch (Systemd Edition)
-2. Used NetworkManager instead of systemd-networkd
-3. Host OS : Linux Mint
-4. LFS Kernel Version : Linux 6.18.10
-5. Target Architecture : x86_64
+1. Book Version : Linux From Scratch (Systemd Edition) 
+2. Host OS : Linux Mint
+3. LFS Kernel Version : Linux 6.18.10
+4. Target Architecture : x86_64
+5. Networking Stack : NetworkManager (instead of systemd-networkd)
 6. Build Method : Fully Manual Entry
+7. Host Machine : Thinkpad T490s
 
 ---  
 
@@ -22,9 +23,9 @@ To verify that the system is bootable and completely operational, I have include
 
 ---  
 
-## 🎓 What I've Learnt
+## 🎓 What I've Learned
 1. Useful yet simple CLI tools (e.g cp, mv, find, mkdir, mount)
-2. How to manually extract, compile and install packages directly from source code using tar
+2. How to manually extract, compile and install packages directly from source code using 'autotools' (./configure, make, make install)
 3. How to install packages from the internet in CLI
 4. Cross-compiling temporary tools to build the system
 
