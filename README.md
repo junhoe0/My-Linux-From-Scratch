@@ -4,13 +4,15 @@
 ---  
 
 ## 🚀 Project Overview
-1. Book Version : Linux From Scratch (Systemd Edition) 
-2. Host OS : Linux Mint
-3. LFS Kernel Version : Linux 6.18.10
-4. Target Architecture : x86_64
-5. Networking Stack : NetworkManager (instead of systemd-networkd)
-6. Build Method : Fully Manual Entry
-7. Host Machine : Thinkpad T490s
+|**Parameter**|**Specification**|
+|:---|:---|
+| Book Version | Linux From Scratch (Systemd Edition) 
+| Host OS | Linux Mint
+| LFS Kernel Version | Linux 6.18.10
+| Target Architecture | x86_64
+| Networking Stack | NetworkManager (instead of systemd-networkd)
+| Build Method | Fully Manual Entry
+| Host Machine | Thinkpad T490s
 
 ---  
 
@@ -32,5 +34,5 @@ To verify that the system is bootable and completely operational, I have include
 ---  
 
 ## ⚠️ Challenges Faced
- • Debugging Boot Problems - On first boot, my laptop displayed unable to find vmlinuz. After trying to fix it, I accidentally binding /dev to wrong file and had to reinstall Linux Mint
- • Downloading, compiling and installing NetworkManager - I had to install up to 13 different packages manually, each package branching out with more dependencies, making sure non of the commands have typos
+ * Debugging Boot Problems - On first boot, my laptop displayed unable to find vmlinuz. After trying to fix it, I accidentally binding /dev to wrong file and had to reinstall Linux Mint  
+ * Downloading, compiling and installing NetworkManager - I had to install up to 13 different packages manually, each package branching out with more dependencies, making sure non of the commands have typos  
