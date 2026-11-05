@@ -6,7 +6,7 @@
 ## 🚀 Project Overview
 |**Parameter**|**Specification**|
 |:---|:---|
-| Book Version | Linux From Scratch (Systemd Edition) 
+| Book Version | Linux From Scratch (Systemd Edition) v13.0
 | Host OS | Linux Mint
 | LFS Kernel Version | Linux 6.18.10
 | Target Architecture | x86_64
